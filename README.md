@@ -18,6 +18,7 @@ docker build -t ghost-alpine-s3-mysql .
 ### Running
  Set the following environments:
 
+```
 MYSQL_HOST=""
 MYSQL_USER=""
 MYSQL_PASSWORD=""
@@ -28,5 +29,6 @@ S3_BUCKET_NAME=""
 S3_REGION=""
 S3_ASSET_HOST=""
 NODE_ENV=production
+```
 
 before running the container.
